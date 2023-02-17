@@ -1,0 +1,27 @@
+.card-body-area::before{
+  position: absolute;
+  top:-2px;
+  left:-7px;
+  content: '';
+  background: #5045c4;
+  height: 28px;
+  width: 28px;
+  transform : rotate(45deg);
+  z-index: -1;
+}
+
+.card-body-area::after{
+  position: absolute;
+  content: attr(data-label);
+  top: -20px;
+  left: -16px;
+  padding: 0.4rem;
+  width: 8rem;
+  background: #7065F0;
+  color: white;
+  text-align: center;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+  border-radius: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
