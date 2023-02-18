@@ -9,11 +9,12 @@
 		"totalBeds": "3",
 		"totalBathrooms": "2",
 		"landSize": "5x7m2",
-		"propertyType": "House"
+		"propertyType": "House",
+		"isPopular":true
 	},
 	{
 		"id": "2",
-		"name": "Palm Harbor",
+		"name": "Beverly Springfield",
 		"image": "https://miro.medium.com/max/1043/0*AiisPCTV3CPGuAf1.jpg",
 		"price": 495,
 		"address": "2699 Green Valley Highland Lake, FL",
@@ -21,11 +22,12 @@
 		"totalBeds": "4",
 		"totalBathrooms": "2",
 		"landSize": "5x7m2",
-		"propertyType": "Apartments"
+		"propertyType": "Apartments",
+		"isPopular":true
 	},
 	{
 		"id": "3",
-		"name": "Palm Harbor",
+		"name": "Faulkner Ave",
 		"image": "https://www.thebalancemoney.com/thmb/nLalLeLatpWifTmda2_BB6ygx6I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-175767618-b02682b12275463e887338e2ad32561b.jpg",
 		"price": 999,
 		"address": "2699 Green Valley Highland Lake, FL",
@@ -33,11 +35,12 @@
 		"totalBeds": "3",
 		"totalBathrooms": "2",
 		"landSize": "5x7m2",
-		"propertyType": "Townhouses"
+		"propertyType": "Townhouses",
+		"isPopular": true
 	},
 	{
 		"id": "4",
-		"name": "Palm Harbor",
+		"name": "St. Crystal",
 		"image": "https://www.elitehavens.com/magazine/wp-content/uploads/2021/05/Header.jpg",
 		"price": 1999,
 		"address": "2699 Green Valley Highland Lake, FL",
@@ -45,11 +48,12 @@
 		"totalBeds": "3",
 		"totalBathrooms": "2",
 		"landSize": "5x7m2",
-		"propertyType": "Villas"
+		"propertyType": "Villas",
+		"isPopular": false
 	},
 	{
 		"id": "5",
-		"name": "Palm Harbor",
+		"name": "Cove Red",
 		"image": "https://uploads-ssl.webflow.com/5db0fce271caa26ad1ca0613/5e18cc88d27bcf43c704809b_1-bedroom-apartment.jpg",
 		"price": 2095,
 		"address": "2699 Green Valley Highland Lake, FL",
@@ -57,11 +61,12 @@
 		"totalBeds": "3",
 		"totalBathrooms": "2",
 		"landSize": "5x7m2",
-		"propertyType": "Apartments"
+		"propertyType": "Apartments",
+		"isPopular": false
 	},
 	{
 		"id": "6",
-		"name": "Palm Harbor",
+		"name": "The Old Steele",
 		"image": "https://www.brightonhomes.net.au/sites/default/files/styles/hero_image/public/townhouse-living.jpg?itok=1T3rZOsv",
 		"price": 2095,
 		"address": "2699 Green Valley Highland Lake, FL",
@@ -69,11 +74,12 @@
 		"totalBeds": "3",
 		"totalBathrooms": "2",
 		"landSize": "5x7m2",
-		"propertyType": "Townhouses"
+		"propertyType": "Townhouses",
+		"isPopular": false
 	},
 	{
 		"id": "7",
-		"name": "Palm Harbor",
+		"name": "Tarpon Bay",
 		"image": "https://assets-news.housing.com/news/wp-content/uploads/2021/11/09193721/21-breathtaking-house-designs-for-2022-21-breathtaking-house-designs-for-2022-shutterstock_1249054465-1200x700-compressed.jpg",
 		"price": 2095,
 		"address": "2699 Green Valley Highland Lake, FL",
@@ -81,7 +87,8 @@
 		"totalBeds": "3",
 		"totalBathrooms": "2",
 		"landSize": "5x7m2",
-		"propertyType": "House"
+		"propertyType": "House",
+		"isPopular": false
 	},
 	{
 		"id": "8",
@@ -93,7 +100,8 @@
 		"totalBeds": "3",
 		"totalBathrooms": "2",
 		"landSize": "5x7m2",
-		"propertyType": "House"
+		"propertyType": "House",
+		"isPopular": false
 	},
 	{
 		"id": "9",
@@ -105,18 +113,20 @@
 		"totalBeds": "3",
 		"totalBathrooms": "2",
 		"landSize": "5x7m2",
-		"propertyType": "Apartments"
+		"propertyType": "Apartments",
+		"isPopular": false
 	},
 	{
 		"id": "10",
 		"name": "Palm Harbor",
-        "price":980,
+		"price": 980,
 		"image": "https://architecturesstyle.com/wp-content/uploads/2021/01/suburban-house-ideas-9-1024x675.jpeg",
 		"address": "2699 Green Valley Highland Lake, FL",
 		"location": "Rajasthan",
 		"totalBeds": "3",
 		"totalBathrooms": "2",
 		"landSize": "5x7m2",
-		"propertyType": "House"
+		"propertyType": "House",
+		"isPopular": false
 	}
 ]

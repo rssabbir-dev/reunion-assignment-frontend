@@ -5,7 +5,7 @@ const Navbar = () => {
 	const navMenu = (
 		<>
 			<li>
-				<a>Rent</a>
+				<a className='bg-[#E8E6F9] text-primary'>Rent</a>
 			</li>
 			<li>
 				<a>Buy</a>

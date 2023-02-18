@@ -10,6 +10,8 @@ const Home = () => {
 	const [properties, setProperties] = useState([]);
 	const [locations, setLocations] = useState([]);
 	const [propertiesType, setPropertiesType] = useState([]);
+	const [wishList, setWishList] = useState([]);
+	const localWish = JSON.parse(localStorage.getItem('wishList'));
 
 	useEffect(() => {
 		setLoading(true);
@@ -26,12 +28,13 @@ const Home = () => {
 				];
 				setPropertiesType(propertiesTypeData);
 				setLoading(false);
+				setWishList(localWish)
 			});
 	}, []);
 
 	const handleSearch = (event) => {
 		event.preventDefault();
-		setReload(true)
+		setReload(true);
 		const form = event.target;
 		const searchLocation = form.location.value;
 		const searchWhen = form.when.value;
@@ -58,8 +61,21 @@ const Home = () => {
 						singleProperty.price <= searchMaxPrice
 				);
 				setProperties(filterData);
-				setReload(false)
+				setReload(false);
 			});
+	};
+	const handleWishList = (id) => {
+		if (wishList.includes(id)) {
+			const exitedWish = localWish.filter((wish) => wish !== id);
+			setWishList([...exitedWish]);
+			localStorage.setItem('wishList', JSON.stringify(exitedWish));
+		} else {
+			setWishList([...localWish, id]);
+			localStorage.setItem(
+				'wishList',
+				JSON.stringify([...localWish, id])
+			);
+		}
 	};
 
 	if (loading) {
@@ -85,7 +101,13 @@ const Home = () => {
 						<Spinner />
 					</div>
 				)}
-				{!reload && <PropertyCardContainer properties={properties} />}
+				{!reload && (
+					<PropertyCardContainer
+						handleWishList={handleWishList}
+						wishList={wishList}
+						properties={properties}
+					/>
+				)}
 			</div>
 		</div>
 	);
