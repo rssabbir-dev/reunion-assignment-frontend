@@ -66,7 +66,7 @@ const Home = () => {
 	};
 	const handleWishList = (id) => {
 		if (wishList.includes(id)) {
-			const exitedWish = localWish.filter((wish) => wish !== id);
+			const exitedWish = localWish?.filter((wish) => wish !== id);
 			setWishList([...exitedWish]);
 			localStorage.setItem('wishList', JSON.stringify(exitedWish));
 		} else {
@@ -94,7 +94,7 @@ const Home = () => {
 					locations={locations}
 					propertiesType={propertiesType}
 					handleSearch={handleSearch}
-					count={properties.length}
+					count={properties?.length}
 				/>
 				{reload && (
 					<div className='flex justify-center'>

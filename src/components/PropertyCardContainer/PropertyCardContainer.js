@@ -10,7 +10,7 @@ const PropertyCardContainer = ({ properties, handleWishList, wishList }) => {
 						<PropertyCard
 							key={property.id}
 							property={property}
-							wish={wishList.includes(property.id)}
+							wish={wishList?.includes(property.id)}
 							handleWishList={handleWishList}
 						/>
 					))}
