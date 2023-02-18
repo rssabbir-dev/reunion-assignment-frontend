@@ -1,0 +1,122 @@
+[
+	{
+		"id": "1",
+		"name": "Palm Harbor",
+		"image": "https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg",
+		"price": 250,
+		"address": "2699 Green Valley Highland Lake, FL",
+		"location": "Delhi",
+		"totalBeds": "3",
+		"totalBathrooms": "2",
+		"landSize": "5x7m2",
+		"propertyType": "House"
+	},
+	{
+		"id": "2",
+		"name": "Palm Harbor",
+		"image": "https://miro.medium.com/max/1043/0*AiisPCTV3CPGuAf1.jpg",
+		"price": 495,
+		"address": "2699 Green Valley Highland Lake, FL",
+		"location": "Mumbai",
+		"totalBeds": "4",
+		"totalBathrooms": "2",
+		"landSize": "5x7m2",
+		"propertyType": "Apartments"
+	},
+	{
+		"id": "3",
+		"name": "Palm Harbor",
+		"image": "https://www.thebalancemoney.com/thmb/nLalLeLatpWifTmda2_BB6ygx6I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-175767618-b02682b12275463e887338e2ad32561b.jpg",
+		"price": 999,
+		"address": "2699 Green Valley Highland Lake, FL",
+		"location": "Mumbai",
+		"totalBeds": "3",
+		"totalBathrooms": "2",
+		"landSize": "5x7m2",
+		"propertyType": "Townhouses"
+	},
+	{
+		"id": "4",
+		"name": "Palm Harbor",
+		"image": "https://www.elitehavens.com/magazine/wp-content/uploads/2021/05/Header.jpg",
+		"price": 1999,
+		"address": "2699 Green Valley Highland Lake, FL",
+		"location": "Rajasthan",
+		"totalBeds": "3",
+		"totalBathrooms": "2",
+		"landSize": "5x7m2",
+		"propertyType": "Villas"
+	},
+	{
+		"id": "5",
+		"name": "Palm Harbor",
+		"image": "https://uploads-ssl.webflow.com/5db0fce271caa26ad1ca0613/5e18cc88d27bcf43c704809b_1-bedroom-apartment.jpg",
+		"price": 2095,
+		"address": "2699 Green Valley Highland Lake, FL",
+		"location": "Delhi",
+		"totalBeds": "3",
+		"totalBathrooms": "2",
+		"landSize": "5x7m2",
+		"propertyType": "Apartments"
+	},
+	{
+		"id": "6",
+		"name": "Palm Harbor",
+		"image": "https://www.brightonhomes.net.au/sites/default/files/styles/hero_image/public/townhouse-living.jpg?itok=1T3rZOsv",
+		"price": 2095,
+		"address": "2699 Green Valley Highland Lake, FL",
+		"location": "Mumbai",
+		"totalBeds": "3",
+		"totalBathrooms": "2",
+		"landSize": "5x7m2",
+		"propertyType": "Townhouses"
+	},
+	{
+		"id": "7",
+		"name": "Palm Harbor",
+		"image": "https://assets-news.housing.com/news/wp-content/uploads/2021/11/09193721/21-breathtaking-house-designs-for-2022-21-breathtaking-house-designs-for-2022-shutterstock_1249054465-1200x700-compressed.jpg",
+		"price": 2095,
+		"address": "2699 Green Valley Highland Lake, FL",
+		"location": "Delhi",
+		"totalBeds": "3",
+		"totalBathrooms": "2",
+		"landSize": "5x7m2",
+		"propertyType": "House"
+	},
+	{
+		"id": "8",
+		"name": "Palm Harbor",
+		"image": "https://mydecortrends.com/wp-content/uploads/2021/08/exterior-home-trends-2022-1-1.jpg",
+		"price": 2095,
+		"address": "2699 Green Valley Highland Lake, FL",
+		"location": "Rajasthan",
+		"totalBeds": "3",
+		"totalBathrooms": "2",
+		"landSize": "5x7m2",
+		"propertyType": "House"
+	},
+	{
+		"id": "9",
+		"name": "Palm Harbor",
+		"image": "https://www.essexapartmenthomes.com/-/media/Project/EssexPropertyTrust/Sites/EssexApartmentHomes/Blog/2021/2021-01-12-Studio-vs-One-Bedroom-Apartment-How-They-Measure-Up/Studio-vs-One-Bedroom-Apartment-How-They-Measure-Up-1.jpg",
+		"price": 2095,
+		"address": "2699 Green Valley Highland Lake, FL",
+		"location": "Delhi",
+		"totalBeds": "3",
+		"totalBathrooms": "2",
+		"landSize": "5x7m2",
+		"propertyType": "Apartments"
+	},
+	{
+		"id": "10",
+		"name": "Palm Harbor",
+        "price":980,
+		"image": "https://architecturesstyle.com/wp-content/uploads/2021/01/suburban-house-ideas-9-1024x675.jpeg",
+		"address": "2699 Green Valley Highland Lake, FL",
+		"location": "Rajasthan",
+		"totalBeds": "3",
+		"totalBathrooms": "2",
+		"landSize": "5x7m2",
+		"propertyType": "House"
+	}
+]
