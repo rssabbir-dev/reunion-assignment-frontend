@@ -65,16 +65,25 @@ const Home = () => {
 			});
 	};
 	const handleWishList = (id) => {
-		if (wishList.includes(id)) {
+		if (wishList?.includes(id)) {
 			const exitedWish = localWish?.filter((wish) => wish !== id);
 			setWishList([...exitedWish]);
 			localStorage.setItem('wishList', JSON.stringify(exitedWish));
 		} else {
-			setWishList([...localWish, id]);
-			localStorage.setItem(
-				'wishList',
-				JSON.stringify([...localWish, id])
-			);
+			if (localWish) {
+				setWishList([...localWish, id]);
+				localStorage.setItem(
+					'wishList',
+					JSON.stringify([...localWish, id])
+				);
+			}
+			else {
+				setWishList([id])
+				localStorage.setItem(
+					'wishList',
+					JSON.stringify([id])
+				);
+			}
 		}
 	};
 
